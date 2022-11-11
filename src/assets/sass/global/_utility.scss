@@ -1,0 +1,8 @@
+@use "./breakpoints" as g;
+.u-sp-only {
+  display: none;
+  // $break4: 768;
+  @include g.mq(u-br4) {
+    display: block;
+  }
+}

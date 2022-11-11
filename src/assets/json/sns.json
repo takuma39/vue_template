@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "network": "twitter",
+    "name": "Twitter",
+    "icon": "fab fa-twitter"
+  },
+  {
+    "id": 2,
+    "network": "facebook",
+    "name": "Facebook",
+    "icon": "fab fa-facebook-f"
+  },
+  {
+    "id": 3,
+    "network": "line",
+    "name": "Line",
+    "icon": "fab fa-line"
+  }
+]

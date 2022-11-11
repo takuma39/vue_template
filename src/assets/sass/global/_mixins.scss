@@ -1,0 +1,20 @@
+@use "./breakpoints" as g;
+@mixin font-size($size) {
+  font-size: $size + px;
+  font-size: calc($size / 16) * 1rem;
+}
+
+@mixin section {
+  padding: 70px 0;
+
+  // $break4: 768;
+  @include g.mq(u-br4) {
+    padding: 40px 0;
+  }
+}
+
+@mixin inner {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
